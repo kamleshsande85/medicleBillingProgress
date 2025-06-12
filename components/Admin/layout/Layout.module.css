@@ -1,0 +1,257 @@
+/* html, body {
+    height: 100vh;
+    overflow: hidden; 
+}  */
+
+.container{
+    display: flex;
+    gap: 0px;
+    background: #DEEBF7;
+    height: 100vh;
+    overflow: hidden;/*Agar extra content ho toh usko hide kare*/
+}
+.maincontent{
+    flex: 1;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* background: #DEEBF7; */
+    /* gap: 5px; */
+    /* margin-left: 2px; */
+    /* gap: 1px; */
+}
+.subHeader{
+    /* margin-left: 2px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    gap: 3px;
+
+    /* margin-left: 10px; */
+   ;
+    /* background: #0596cf; */
+}
+.upper{
+    background: #053048;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 10px;
+    margin-top: 5px;
+    color: #ffffff;
+   
+    
+   
+}
+
+.upper h1{
+    font-size: 20px;
+    border-radius: 15%
+}
+
+.leftUpper{
+    display: flex;
+    /* gap: 5px; */
+    align-items: center;
+    /* color: #ffffff; */
+
+}
+.leftitem{
+    margin-right: 15px;
+    /* filter: "invert(1)"; */
+}
+
+/* svg {
+    filter: invert(1);
+  } */
+.leftimg img{
+    width: 40px;  /* Fixed width */
+    /* filter: "invert(1)";  */
+   
+    /* marginRight: "10px" */
+}
+
+/* .leftbutton button{
+    width: 70px;
+    width: 60px;
+} */
+
+
+
+.leftbutton button {
+    width: 100px;  /* Thoda bada aur readable size */
+    height: 40px;  /* Thoda height badhaya */
+    background-color: #0596cf; /* Blue background */
+    color: white;  /* Text color */
+    font-size: 16px;  /* Text readable rahe */
+    font-weight: bold;
+    border: none;  /* Border hataya for clean look */
+    border-radius: 8px;  /* Rounded corners */
+    cursor: pointer;  /* Clickable feel dene ke liye */
+    transition: all 0.3s ease-in-out;  /* Smooth hover effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Hover Effect */
+.leftbutton button:hover {
+    background-color: #0477a8; /* Darker blue */
+    transform: scale(1.05);  /* Slight zoom-in effect */
+}
+
+/* Active (Jab button click hoga) */
+.leftbutton button:active {
+    transform: scale(0.98); /* Slight press effect */
+    background-color: #035d82;
+}
+
+/* Responsive Design (Chhoti screen ke liye) */
+@media (max-width: 600px) {
+    .leftbutton button {
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+
+
+.lower{
+   
+    /* background: #9e2929; */
+    height: 50%;
+    display: flex;
+    gap: 3px;
+    justify-content:space-evenly;
+    margin: 10px;
+    margin-top: 2px;
+    margin-bottom: 0;
+
+    /* border-radius: 20%; */
+}
+.Box1{
+    width: 25%;
+    /* width: 200px; */
+    height: 65px;
+    background: #ffffff;
+    padding: 16px;
+    border: 2px solid #053048;
+    /* margin: 10px;
+    margin-bottom: 0%;
+    margin-top: 0%; */
+    /* border-radius: 5%; */
+
+  
+    
+}
+
+.navBar{
+    width: 250px;
+    background: #053048;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    left: -250px;
+    transition: left 0.3s ease;
+    /* text-decoration: none; */
+}
+
+li{
+   
+    display: flex;
+   
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    align-items:center;
+    /* justify-content: space-between; */
+    
+}
+
+
+li img{
+    margin-top: 5px;
+    width:25px;
+}
+
+.navBar h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+a {
+    color: rgb(255, 255, 255); /* Default color */
+    text-decoration: none; /* Underline hatane ke liye */
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #006eff; /* Hover pe color change */
+    /* text-decoration: underline; Hover pe underline dikhana */
+  }
+  
+
+
+  .outletstyle{
+    background: #ffffff;
+    margin: 10px;
+    margin-top: -5px;
+    /* margin-bottom: 0; */
+    height: 111%;
+    /* flex: 1; */
+  }
+
+
+
+  .containerItem{
+    display: flex;
+    flex-direction: column;
+    height: 83vh;
+    gap: 1px;
+    background-color: #DEEBF7;
+  }
+  .itemNavbar{
+    background: #053048;
+    height: 6%;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+
+  }
+
+  .itemNavbar li{
+    color: #ffffff;
+    /* margin-left: 20px; */
+  }
+  .itemNavbar .liHome{
+   
+    margin-left: 9px;
+  }
+  .itemNavbar li:hover{
+    color: #006eff;
+  }
+
+  .itemOutlet{
+    background: #ffffff;
+    height: 94%;
+  }
+
+.menubtn{
+    /* position: absolute; */
+    /* left: 10px; */
+    top: 10px;
+    /* font-size: 20px; */
+    cursor: pointer;
+    /* background: #333; */
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    /* filter: "invert(1)" */
+}

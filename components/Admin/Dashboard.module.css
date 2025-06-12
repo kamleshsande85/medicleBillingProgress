@@ -1,0 +1,39 @@
+.Box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3px;
+
+}
+.subBox{
+    flex: 1;border: 1px solid ;
+
+}
+.subBox1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.subBox_left{
+    flex: 1;
+    border: 1px solid;
+}
+.subBox2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.subboxRight{
+    flex: 1;
+    border: 1px solid;
+}
+.LeftLower{
+    display: flex;
+    flex-direction: column;
+}
+.leftLower_sub{
+    flex: 1;
+    border: 1px solid;
+}

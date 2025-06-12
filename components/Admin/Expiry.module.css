@@ -1,0 +1,70 @@
+.Box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+}
+.subBox{
+    /* background: #ffffff; */
+    border: 1px solid black;
+    height: 35%;
+}
+.subBoxUpper{
+    display: flex;
+    /* gap: 1px; */
+    /* height: 50%; */
+}
+
+.subBox_sub{
+  /* border: 1px solid black; */
+  flex: 1;
+}
+
+.subBox_sub{
+  /* border: 1px solid black; */
+  flex: 1;
+}
+.subBox_subLeft{
+    background-color: #ffffff;
+}
+.subBox_subRight{
+    background-color: #ffffff;
+}
+
+.subBox2{
+    height: 100%;
+    /* background-color: #D32C2C; */
+}
+.purchaseStyle {
+    max-height: 359px;
+}
+
+.purchaseStyle1 thead th {
+    position: sticky;
+    top: 0;
+    background-color: #D32C2C;
+    color: #ffffff;
+    z-index: 1;
+    padding: 0;
+    /* font-weight: bold; */
+  }
+.purchaseStyle2 thead th {  
+    position: sticky;
+    top: 0;
+    background-color: #F6F626;
+    color: #000000;
+    z-index: 1;
+    padding: 0;
+    /* font-weight: bold;
+    font-size: 18px; */
+  }
+.purchaseStyle thead th {  
+   padding: 1%;
+  }
+
+
+/* .box2{
+    height: 100%;
+} */

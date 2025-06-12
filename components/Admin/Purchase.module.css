@@ -1,0 +1,190 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    height: 100%;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #DEEBF7;
+    border: 1px solid #053048;
+     */
+}
+.boxUpper{
+    /* max-height: 100%; */
+    height: 100%;
+    border: 1px solid;
+   
+}
+.boxLower{
+    flex: 1;
+    border: 1px solid;
+}
+
+.subBox{
+   
+    /* background-color: #ca9341; */
+    border: 1px solid;
+}
+
+.subBox1{
+    border: 1px solid;
+    display: flex;
+    gap: 5px;
+    /* justify-content: ; */
+    width: 100%;
+    /* height: 30%; */
+    flex: 1;
+    flex-wrap: wrap;
+
+
+}
+
+.subBox1_box1{
+ 
+    width: 23%;
+    background: #ffffff;
+    /* margin-left: 10px; */
+    /* margin-top: 5px; */
+    padding: 5px;
+   
+}
+
+.dropBoxCss{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+    padding: 0px;
+    /* padding-bottom: 0px; */
+}
+
+
+.subBox1_box2{
+    flex: 1;
+    background: #cfcaca;
+}
+
+.subBox2{
+    /* flex: 1; */
+    height: 40%;
+    /* background-color: #fff; */
+}
+
+.subBox3{
+    height: 30%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding-top: 2px;
+   
+}
+
+
+
+.dateItemSearch{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
+.dateStyle{
+    margin-top: 10px;
+   
+}
+.searchItem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  
+   
+}
+.typee{
+    width: 300px;
+     margin: 4px;
+
+}
+.divQTYPrice{
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
+
+}
+
+.rightSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.scrollableTable {
+    max-height: 300px;
+    overflow-y: auto;
+    /* border: 1px solid #000000; */
+    /* border-bottom: none; */
+    /* padding: 10px; */
+   
+  }
+  
+  /* Optional: Make header sticky */
+  .scrollableTable thead th {
+    position: sticky;
+    top: 0;
+    background-color: #1976d2;
+    color: #ffffff;
+    z-index: 1;
+    padding: 0;
+  }
+  
+  /* Optional: Table styling */
+  .scrollableTable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .scrollableTable th,
+  .scrollableTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-bottom: none;
+
+  }
+  
+  .scrollableTable tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+
+  .subBox3_sub{ 
+    height: 20%;
+    width: 100%;
+    /* background-color: #c01976d2; */
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px;
+    /* margin: 20px; */
+  }
+.subBox3_upper{
+    display: flex;
+    background: #c01976d2;
+    color: #ffffff;
+    font-weight: bold;
+}
+.subBox3_sub_sub1_option{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.subBox3_sub{
+    margin-left: 20%;
+}

@@ -1,0 +1,144 @@
+.imContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%; 
+    gap: 2px;
+    
+  }
+
+  .imContainerinner{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 130%;
+    width: 80%; 
+
+  }
+
+  /* .item1{
+    width: 100%;
+    height: 30%;
+    background: #bdbeb5;
+    padding: 5px;
+  } */
+  /* .item2{
+    height: 70%;
+  } */
+  .item3{
+    /* width: 30%; */
+    flex: 1;
+    height: 100%;
+    background: #053048;
+    color: #fff;
+  }
+  .item3Lower{
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 5px;
+    /* padding-top: 10px; */
+    
+  }
+  .item3Lower p{
+    padding: 5px;
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+
+ table, th, td {
+    border: 2px solid black; /* Fixed spacing issue */
+    padding: 8px;
+    text-align: left;
+  }
+  th{
+    background: #18e2e2;
+  }
+  td{
+    background-color: #ffffff;
+  }
+  
+  .inputStyle {
+   display: flex;
+   gap: 5px;
+   width: 100%;
+   height: 100%;
+   flex-wrap: wrap;
+  }
+  .overview{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+  }
+
+
+  .itemUpper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 2px;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+
+  .itemSubUpper{
+    height: 10%;
+    background-color: #bdbeb5;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+   
+
+  }
+  .itemSubLower{
+    height: 80%;
+    background-color: #c7bdbd;
+  }
+  .itemSubLower1{
+    height: 90%;
+    background-color: #c7bdbd;
+  }
+
+.tableContainer{
+    max-height: 100%; 
+    overflow-y: auto;  /* Vertical scroll enable karega */
+    overflow-x: auto;  /* Horizontal scroll enable karega */
+    margin: 0;
+    padding: 0;
+    
+    
+    
+    
+
+}
+table {
+  width: 100%; /* Table full width le */
+  border-collapse: collapse; /* Borders ek sath show ho */
+  border: 0px solid;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+ 
+}
+
+th {
+  position: sticky;
+  top: 0;
+  margin-top: 0;
+  background: #eedf09; /* Sticky header ke liye background */
+}
+
+/* .iamgeTitle{
+  color: #ffffff;
+
+} */
