@@ -1,0 +1,8 @@
+DATABASE medibill_db 
+USER medibill_user  
+PASSWORD '7458_medibill'
+
+super user credential
+username : medibillSuper
+password : medibill7458
+
